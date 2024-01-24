@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.emblema{
+    width: 150px;
+    margin-bottom: 5px;
+    
+    
+}
+
+h1{
+    font-size: 81px;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+span{
+    color: green;
+}
+
+p{
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 480px;
+}
+
+
+button{
+    font-size: 30px;
+    background-color: chartreuse;
+    padding:10px 10px;
+    border-radius: 20px;
+    border: none;
+    margin-left: 160px;
+    margin-top: 20px;
+    color: beige;
+    transition: 1s;
+    
+}
+
+button:hover{
+    transform: translateY(-25px);
+    background-color: #017143;
+
+
+}
+.starbucks{
+    width: 450px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -107px;  
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    margin-top: -340px;
+    z-index: 2;
+}
+
+.copo{
+    z-index: 2;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.copo:hover{
+    transform: translateY(-25px);
+}
+
+.conteudo{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.texto{
+    margin-bottom: 213px;
+  
+}
+
+.circulo{
+    background: #017143;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    clip-path: circle(704px at right 756px);       
+}
+
+.copovg{
+    z-index: 2;
+}
+
+button:hover{
+    opacity: 8;
+    cursor: pointer;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>StarBusk</title>
+</head>
+
+<body>
+    <div class="circulo"></div>
+    <div class="conteudo">
+        <div class="texto">
+            <img class="emblema" src="./assets/logo.png" alt="logo" />
+            <h1>Não é so café e sim <span>Starbucks</span></h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid suscipit qui repellat magnam quia
+                beatae
+                nemo
+                obcaecati, perspiciatis neque adipisci quod possimus voluptates libero impedit perferendis est
+                consequatur
+                quaerat porro.</p>
+            <button>Faça seu Pedido</button>
+        </div>
+        <div class="copovg">
+            <img class="starbucks" src="./assets/img1.png" alt="starbucks">
+
+        </div>
+    </div>
+
+    <div class="menu">
+        <img src="./assets/img-pequena1.png" alt="copo" class="copo verde">
+        <img src="./assets/img-pequena2.png" alt="copo" class="copo amarelo">
+        <img src="./assets/img-pequena3.png" alt="copo" class="copo rosa">
+    </div>
+
+<div class="circulo"></div>
+
+</body>
+
+<script>
+
+    let circulo = document.querySelector(".circulo")
+    let imgCopo = document.querySelector(".starbucks")
+    let verde = document.querySelector(".verde")
+    let amarelo = document.querySelector(".amarelo")
+    let rosa = document.querySelector(".rosa")
+    
+    amarelo.addEventListener("click",() =>{
+        imgCopo.src = "./assets/img2.png"
+        circulo.style.background = "#eb7495"
+    })
+    rosa.addEventListener("click",() =>{
+        imgCopo.src = "./assets/img3.png"
+        circulo.style.background = "#d752b1"
+    })
+    verde.addEventListener("click",() =>{
+        imgCopo.src = "./assets/img1.png"
+        circulo.style.background = "#017143"
+    })
+
+
+</script>
+
+</html>
