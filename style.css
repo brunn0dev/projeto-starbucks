@@ -95,9 +95,14 @@ button:hover{
 
 .copovg{
     z-index: 2;
+    margin-top: -185px;
 }
 
 button:hover{
     opacity: 8;
     cursor: pointer;
+}
+
+img3{
+
 }
